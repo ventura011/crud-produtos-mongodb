@@ -1,12 +1,12 @@
 import express from "express";
 import dotenv from "dotenv";
 import mongoose from "mongoose";
-import product from "./products.js";
+import product from "./Products.js";
 
 dotenv.config();
 
 const app = express();
-const PORT = 3333
+const PORT = 3900
 app.use(express.json());
 
 const connectDB = async () => {
